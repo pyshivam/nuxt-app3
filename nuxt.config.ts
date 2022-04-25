@@ -5,4 +5,5 @@ export default defineNuxtConfig({
   typescript: {
     shim: false,
   },
+  buildDir: 'build-dir'
 });
