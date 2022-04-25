@@ -1,0 +1,19 @@
+name = "nuxt3"
+type = "javascript"
+account_id = "0849f9bf161ed08f7321d0a5b2a63ef2"
+workers_dev = true
+route = ""
+zone_id = "81c33be03b90626f4c0b636e9b1b8762"
+
+[site]
+bucket = ".output/public"
+entry-point = ".output"
+
+[build]
+command = "npm run build"
+upload.format = "service-worker"
+
+[vars]
+USE_ES6_IMPORT_META = 0
+NODE_VERSION = "16.14.2"
+NITRO_PRESET="cloudflare"
