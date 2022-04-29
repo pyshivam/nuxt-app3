@@ -6,20 +6,11 @@
           Better organization, more business done.
         </div>
         <div class="my-6 text-gray-900 text-xl">
-          I help small businesses and corporations build better systems for
-          projects, docs, and more.
+          I help small businesses and corporations build better systems for projects,
+          docs, and more.
         </div>
         <div
-          class="
-            text-center
-            py-3
-            mt-10
-            bg-black
-            font-medium
-            text-white
-            rounded-md
-            md:max-w-xs
-          "
+          class="text-center py-3 mt-10 bg-black font-medium text-white rounded-md md:max-w-xs"
         >
           Get in Touch
         </div>

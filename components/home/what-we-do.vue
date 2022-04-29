@@ -2,8 +2,8 @@
   <section class="text-center mt-32" id="what-we-do">
     <div class="text-3xl font-bold my-6">What We Do</div>
     <div class="text-xl text-gray-800 mt-12">
-      I help individuals & teams build their life and business system to
-      increase their productivity.
+      I help individuals & teams build their life and business system to increase their
+      productivity.
     </div>
     <div class="mt-6 md:flex lg:gap-16">
       <div v-for="(val, i) in values" :key="val.title" class="p-6 text-left">
@@ -12,15 +12,7 @@
         <div class="text-gray-700 text-lg">{{ val.description }}</div>
         <div
           v-if="i !== values.length - 1"
-          class="
-            text-center
-            py-3
-            mt-10
-            bg-black
-            font-medium
-            text-white
-            rounded-md
-          "
+          class="text-center py-3 mt-10 bg-black font-medium text-white rounded-md"
         >
           Get Started
         </div>
