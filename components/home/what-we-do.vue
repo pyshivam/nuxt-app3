@@ -5,9 +5,9 @@
       I help individuals & teams build their life and business system to
       increase their productivity.
     </div>
-    <div class="mt-6">
+    <div class="mt-6 md:flex lg:gap-16">
       <div v-for="(val, i) in values" :key="val.title" class="p-6 text-left">
-        <div><img :src="`assets/img/${val.img}`" alt="work" /></div>
+        <div><img :src="`/img/${val.img}`" alt="work" /></div>
         <div class="text-xl font-medium py-3">{{ val.title }}</div>
         <div class="text-gray-700 text-lg">{{ val.description }}</div>
         <div
@@ -56,5 +56,7 @@ export default {
       ],
     };
   },
+
+  methods: {},
 };
 </script>

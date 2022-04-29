@@ -1,8 +1,8 @@
 <template>
-  <section class="" style="width: 100%" id="hero">
-    <div class="flex flex-col">
-      <div class="mt-32">
-        <div class="text-4xl font-bold">
+  <section class="mt-32 md:h-screen" style="width: 100%" id="hero">
+    <div class="flex flex-col md:flex-row">
+      <div class="mt-32 md:flex-1">
+        <div class="text-4xl md:text-5xl font-bold" style="line-height: 1.2">
           Better organization, more business done.
         </div>
         <div class="my-6 text-gray-900 text-xl">
@@ -10,12 +10,23 @@
           projects, docs, and more.
         </div>
         <div
-          class="px-20 py-3 mt-10 bg-black font-medium text-white rounded-md"
+          class="
+            text-center
+            py-3
+            mt-10
+            bg-black
+            font-medium
+            text-white
+            rounded-md
+            md:max-w-xs
+          "
         >
           Get in Touch
         </div>
       </div>
-      <img class="mt-16" src="~/assets/img/hero.png" />
+      <div class="md:flex-1 md:flex md:justify-center md:items-center">
+        <img class="mt-16 md:mt-0 md:h-72" src="/img/hero.png" />
+      </div>
     </div>
   </section>
 </template>

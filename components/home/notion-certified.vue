@@ -2,7 +2,7 @@
   <section class="mt-24">
     <div class="flex justify-center align-middle">
       <img
-        src="~/assets/img/notion_certified.png"
+        src="/img/notion_certified.png"
         alt="notion certified"
         class="h-36"
       />
