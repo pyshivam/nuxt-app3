@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-32 md:h-screen" style="width: 100%" id="hero">
+  <section class="mt-32 md:h-screen hero" id="hero">
     <div class="flex flex-col md:flex-row">
       <div class="mt-32 md:flex-1">
         <div class="text-4xl md:text-5xl font-bold" style="line-height: 1.2">
@@ -21,3 +21,22 @@
     </div>
   </section>
 </template>
+
+<style>
+.hero {
+  width: 100%;
+  height: max-content;
+  max-height: max(768px, 100vh);
+}
+
+@media (min-width: 768px) {
+  .hero {
+    min-height: min(680px, 100vh);
+  }
+}
+@media (max-height: 768px) {
+  .hero {
+    min-height: min(768px, 100vh);
+  }
+}
+</style>
